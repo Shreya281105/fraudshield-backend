@@ -5,7 +5,7 @@
     "nixpacksPlan": {
       "providers": ["java"],
       "variables": {
-        "NIXPACKS_JDK_VERSION": "23"
+        "NIXPACKS_JDK_VERSION": "21"
       },
       "buildCmd": "mvn clean package -DskipTests"
     }
